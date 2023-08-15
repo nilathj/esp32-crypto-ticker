@@ -15,10 +15,10 @@ extern "C" {
 #include <AsyncMqttClient.h>
 
 #define AA_FONT_SMALL NotoSansBold15
-#define WIFI_SSID "XXXX"
-#define WIFI_PASSWORD "XXXX"
+#define WIFI_SSID "XXX"
+#define WIFI_PASSWORD "XXX"
 
-#define MQTT_HOST IPAddress(xxx, xxx, xxx, xxx)
+#define MQTT_HOST IPAddress(192, 168, 0, 215)
 #define MQTT_PORT 1883
 #define MQTT_PRICE_TOPIC "crypto/prices"
 
