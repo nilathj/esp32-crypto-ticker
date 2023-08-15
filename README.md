@@ -9,7 +9,7 @@ The price tracker client display the coin name, price, daily % move (+ or -), da
 
 ## Prerequisites
 * This code is using platformio with TFT_eSPI, AsyncMqttClient and ArduinoJson libraries.  Refer platformio.ini.
-* A MQTT server publishing price JSON payloads to the MQTT_PRICE_TOPIC (crypto/prices) periodically.  Refer (https://github.com/nilathj/crypto-price-server)
+* A MQTT server publishing price JSON payloads to the MQTT_PRICE_TOPIC (crypto/prices) periodically.  Refer [Docker Python Crypto Price Server](https://github.com/nilathj/crypto-price-server)
 * Setup SSID and WIFI password
 
 ## Crypto price display code
